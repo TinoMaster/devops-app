@@ -15,6 +15,7 @@
 	<description>API di esempio del corso DevOps per Junior</description>
 	<properties>
 		<tomcat.version>11.0.26</tomcat.version>
+		<jackson-bom.version>3.1.7</jackson-bom.version>
 		<java.version>21</java.version>
 	</properties>
 	<dependencies>

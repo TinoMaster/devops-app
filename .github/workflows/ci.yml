@@ -42,7 +42,7 @@ jobs:
         with:
           command: cves
           image: ${{ env.IMAGE }}:${{ github.sha }}
-          only-severties: critical
+          only-severities: critical
           only-fixed: true
           exit-code: true
       - name: Push su Docker hub
